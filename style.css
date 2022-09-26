@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+body{
+    font-family: 'Playfair Display', serif;
+    margin: 0;
+    margin-left: 20%;
+}
+.section-1{
+    display: flex;
+}
+.section-1-div-1{
+    background-color: rgb(236, 236, 236);
+    width: 300px;
+    height: 250px;
+    margin-right: 10px;
+}
+.div-1-p{
+    padding-top: 5px;
+    width: 250px;
+    font-size: 12px;
+    margin-left: 30px;
+    color: rgb(179, 179, 179);
+}
+.section-1-div-1 h1{
+    margin: 0;
+    margin-top: 10px;
+    margin-left: 30px;
+    font-size: 2em;
+    font-style: italic;
+    color:rgb(179, 179, 179);
+}
+span{
+    font-size: 10px;
+    float: right;
+    padding-right: 20px;
+    padding-top: 10px;
+    color: orange;
+}
+.section-1-div-2{
+    background-color: rgb(58, 58, 58);
+    width: 550px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-1-div-2 h1{
+    color: white;
+}
+.section-2{
+    display: flex;
+}
+.sec-1-div-2-child{
+    width: 300px;
+    height: 300px;
+    margin-right: 15px;
+}
+.h5{
+    background-color: rgb(58, 58, 58);
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid rgb(247, 247, 247);
+    color: white;
+    text-align: center;
+    margin: 0
+}
+.sec-1-div-2-child p{
+    font-size: 12px;
+    color: rgb(179, 179, 179);
+    width: 230px;
+}
+.sec-1-div-2-child h4{
+    font-size: 0.8em;
+    color: rgb(179, 179, 179);
+    margin: 0;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+.sec-1-div-2-child span{
+    padding-right: 80px;
+}
+span{
+    font-weight: 600;
+}
